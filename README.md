@@ -1,5 +1,4 @@
 # QR-CODE
-# QR-Code-Generator
 
 O QR Code Generator é uma aplicação simples e intuitiva que permite gerar QR Codes personalizados com diferentes tipos de dados, como URLs, texto livre, números de telefone, emails e até mesmo informações de contato. Os QR Codes gerados podem ser facilmente escaneados por smartphones e utilizados em diversas situações, como em cartões de visita, sites ou material promocional.
 
