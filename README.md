@@ -11,4 +11,4 @@ Telefone: Gere um QR Code que facilita a realização de uma chamada telefônica
 Email: Crie um QR Code para enviar um email automaticamente ao escanear.
 Contato (vCard): Insira informações de contato (nome, telefone, email) para gerar um QR Code que pode ser salvo como um contato no smartphone.
 
-Link para testar o API:
+Link para testar o API:https://cetijp-3ano.github.io/QR-CODE/
