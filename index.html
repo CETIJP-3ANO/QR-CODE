@@ -16,14 +16,25 @@
         <p>Cole uma URL ou insira um texto para criar um QR CODE</p>
       </header>
       <div class="form">
-        <input type="text" spellcheck="false" placeholder="Insira texto ou url">
-        <button>Gerar Código QR</button>
+        <input type="text" spellcheck="false" placeholder="Insira texto ou URL">
+        <button id="generateBtn">Gerar Código QR</button>
       </div>
       <div class="qr-code">
-        <img src="" alt="qr-code">
+        <img id="qrImage" src="" alt="qr-code">
       </div>
+      <!-- Botão de exportar -->
+      <button id="exportPDF" style="display: none;">Exportar QR Code em PDF</button>
     </div>
-
+    <!-- Colaboradores -->
+    <footer>
+        <div class="colaboradores">
+            <h2>Equipe de Colaboradores no Desenvolvimento do Aplicativo:</h2>
+            <p><strong>Alunos(as):</strong> 2° Ano Técnico/2024</p>
+            <p><strong>Rangel Moura Pontes:</strong> Analista e Desenvolvedor de Sistemas</p>
+        </div>
+    </footer>
+    <!-- Adicionando biblioteca jsPDF -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
